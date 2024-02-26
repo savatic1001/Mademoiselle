@@ -1,0 +1,53 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Da bi div popunio visinu roditeljskog elementa */
+    text-align: center; /* Centriranje teksta */
+    margin-bottom: 111px;
+}
+.services-h{
+    padding-bottom: 58px;
+    font-family: 'Bodoni-72-Book';
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 5px;
+}
+.service h2, .service .btn {
+    width: 80%; /* Širina teksta i dugmeta */
+    margin: 0 auto; /* Centriranje teksta i dugmeta */
+}
+
+.service h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 44px;
+    color: #1E1E1E;
+    font-family: "Lato", sans-serif;
+    transition: transform 0.5s ease; /* Dodajemo animaciju za pomjeranje */
+}
+
+.service .btn {
+    border: 1px solid #1E1E1E;
+    background-color: transparent;
+    color: #1E1E1E;
+    padding: 10px 20px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+     width: 166px;
+    height: 45px;
+    margin: 0 auto
+}
+
+/* Animacija za h2 kada korisnik pređe mišem preko .service */
+.service:hover h2 {
+    transform: translateY(-10px); /* Pomjeramo h2 za 10px gore */
+}
+
+/* Animacija za dugme kada korisnik pređe mišem preko .service */
+.service:hover .btn {
+    opacity: 0.7; /* Smanjujemo providnost dugmeta */
+    transform: scale(1.1); /* Uvećavamo dugme za 10% */
+}
+
