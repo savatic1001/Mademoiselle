@@ -92,15 +92,15 @@ and open the template in the editor.
 
             <div class="container">
                 <section class="articles-section row">
-                    <h1 class="article-heading">
+                    <a href="about.html" class="article-heading">
                         Stay Up with the Latest Beauty Trends
-                    </h1>
+                    </a>
                     <div class="col-lg-4 col-md-6">
                         <div class="article">
                             <div class="article-bg" style="background-image: url('img/latest/1.png');"></div>
                             <div class="article-content">
                                 <div class="date">07/13/2019</div>
-                                <p class="article-p">Welcome To The Online Best Model Winner Contest At Lookoftheyear</p>
+                                <a href="about-single.html" class="article-p">Welcome To The Online Best Model Winner Contest At Lookoftheyear</a>
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ and open the template in the editor.
                             <div class="article-bg" style="background-image: url('img/latest/2.png');"></div>
                             <div class="article-content">
                                 <div class="date">05/15/2019</div>
-                                <p class="article-p">Aiming For Higher The Mastopexy</p>
+                                <a href="about-single.html" class="article-p">Aiming For Higher The Mastopexy</a>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ and open the template in the editor.
                             <div class="article-bg" style="background-image: url('img/latest/3.png');"></div>
                             <div class="article-content">
                                 <div class="date">02/15/2019</div>
-                                <p class="article-p">Seven Steps For Keeping Teeth Healthy For A Lifetimep>
+                                <a href="about-single.html" class="article-p">Seven Steps For Keeping Teeth Healthy For A Lifetime</a>
                             </div>
                         </div>
                     </div>
@@ -132,11 +132,11 @@ and open the template in the editor.
 
             <section>
                 <div class="container">
-                    <h1 class="services-h animation" data-animation="slide-top">OUR SERVICES</h1>
+                    <h1 class="services-h animation" data-animation="slide-top" id="services.html">OUR SERVICES</h1>
                     <div class="row no-gutters">
                         <div class="col-md-6">
                             <div class="service" style="background-color: #F5F5F5;">
-                                <h2>Lip augmentation Lip filling with hyaluronum</h2>
+                                <a  href="service-single.html" class="services-p">Lip augmentation Lip filling with hyaluronum</a>
                                 <a href="#" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ and open the template in the editor.
                         </div>
                         <div class="col-md-6">
                             <div class="service" style="background-color: #ECD9D9;">
-                                <h2>male and female haircut</h2>
+                                <a  href="service-single.html" class="services-p">male and female haircut</a>
                                 <a href="#" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
@@ -158,7 +158,7 @@ and open the template in the editor.
                     <div class="row no-gutters">
                         <div class="col-md-6">
                             <div class="service" style="background-color: #F5F5F5;">
-                                <h2>Day and night makeup</h2>
+                                <a  href="service-single.html" class="services-p">Day and night makeup</a>
                                 <a href="#" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
@@ -172,7 +172,7 @@ and open the template in the editor.
                         </div>
                         <div class="col-md-6">
                             <div class="service" style="background-color: #ECD9D9;">
-                                <h2>Waxing with cold and warm wax</h2>
+                                <a  href="service-single.html" class="services-p">Waxing with cold and warm wax</a>
                                 <a href="#" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
@@ -186,24 +186,28 @@ and open the template in the editor.
 
 
 
-<section class="team-section">
+<section class="team-section" id="blog.html">
   <div class="container">
     <h1 class="team-h">TRUST OUR TEAM</h1>
+    <div class="row justify-content#{$infix}-between">
     <ul class="team-members-slider owl-carousel owl-theme">
       <li class="team-member">
-        <div class="team-member-image">
-          <img src="img/team/team1.png" alt="Član tima 1">
+        <div class="team-member-image col-12 col-sm-6 col-lg-4" order-last order-sm-first>
+          <img src="img/team/team1.png" alt="">
         </div>
-        <div class="team-member-description">
-          <h2>Vera Valdez</h2>
+        <div class="team-member-description col-12 col-sm-6">
+            <article>
+                <h2 class="mb-4">Vera Valdez</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
               industry. Lorem Ipsum has been the industry's standard dummy text 
               ever since the 1500s, when an unknown printer took a galley of 
               type and scrambled it to make a type specimen book. It has survived
               not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </article>
         </div>
       </li>
       </ul>
+    </div>
   </div>
 </section>
 

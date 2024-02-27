@@ -9081,6 +9081,7 @@ header .navbar-nav .nav-item:hover {
   font-size: 60px;
   line-height: 84px;
   font-family: "Bodoni-72-Book";
+  text-decoration: none;
 }
 
 .articles-section {
@@ -9097,7 +9098,7 @@ header .navbar-nav .nav-item:hover {
 }
 
 .article:hover {
-  transform: translateX(-20px); /* Pomeranje članka na leve strane prilikom hover-a */
+  transform: translateX(-20px);
 }
 
 .article-bg {
@@ -9113,11 +9114,11 @@ header .navbar-nav .nav-item:hover {
   top: 164px;
   background-color: #fff;
   padding: 10px 27px 57px;
-  transition: transform 0.5s ease; /* Tranzicija za podizanje box-a */
+  transition: transform 0.5s ease;
 }
 
 .article:hover .article-content {
-  transform: translateY(-20px); /* Podizanje box-a prema gore prilikom hover-a */
+  transform: translateY(-20px);
 }
 
 .date {
@@ -9135,6 +9136,7 @@ header .navbar-nav .nav-item:hover {
   font-size: 30px;
   line-height: 45px;
   text-align: start;
+  border-bottom: 1px solid #ECD9D9;
 }
 
 .article-p {
@@ -9152,6 +9154,17 @@ header .navbar-nav .nav-item:hover {
   text-align: center;
 }
 
+.services-p {
+  font-size: 36px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  line-height: 44px;
+  color: #1E1E1E;
+  font-family: "Lato", sans-serif;
+  transition: transform 0.5s ease;
+}
+
 .services-h {
   padding-bottom: 58px;
   font-family: "Bodoni-72-Book";
@@ -9163,16 +9176,6 @@ header .navbar-nav .nav-item:hover {
 .service h2, .service .btn {
   width: 80%;
   margin: 0 auto;
-}
-
-.service h2 {
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-size: 36px;
-  line-height: 44px;
-  color: #1E1E1E;
-  font-family: "Lato", sans-serif;
-  transition: transform 0.5s ease;
 }
 
 .service .btn {

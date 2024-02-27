@@ -13,8 +13,11 @@
 }
 
 .article:hover {
-    transform: translateX(-20px); /* Pomeranje članka na leve strane prilikom hover-a */
+    transform: translateX(-20px); 
 }
+
+
+
 
 .article-bg {
     height: 200px; 
@@ -29,11 +32,12 @@
     top: 164px;
     background-color: #fff; 
     padding: 10px 27px 57px; 
-    transition: transform 0.5s ease; /* Tranzicija za podizanje box-a */
+    transition: transform 0.5s ease; 
 }
 
+
 .article:hover .article-content {
-    transform: translateY(-20px); /* Podizanje box-a prema gore prilikom hover-a */
+    transform: translateY(-20px); 
 }
 
 .date {
@@ -51,6 +55,7 @@
     font-size: 30px;
     line-height: 45px;
     text-align: start;
+  border-bottom: 1px solid #ECD9D9;
 }
 
 .article-p {
@@ -58,3 +63,5 @@
     font-size: 16px;
     text-align: center;
 }
+
+
