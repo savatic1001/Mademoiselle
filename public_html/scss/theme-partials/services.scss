@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Da bi div popunio visinu roditeljskog elementa */
-    text-align: center; /* Centriranje teksta */
-    margin-bottom: 111px;
+    height: 100%;
+    text-align: center;
+    
 }
 .services-h{
     padding-bottom: 58px;
@@ -15,8 +15,8 @@
     letter-spacing: 5px;
 }
 .service h2, .service .btn {
-    width: 80%; /* Širina teksta i dugmeta */
-    margin: 0 auto; /* Centriranje teksta i dugmeta */
+    width: 80%; 
+    margin: 0 auto; 
 }
 
 .service h2 {
@@ -26,7 +26,7 @@
     line-height: 44px;
     color: #1E1E1E;
     font-family: "Lato", sans-serif;
-    transition: transform 0.5s ease; /* Dodajemo animaciju za pomjeranje */
+    transition: transform 0.5s ease; 
 }
 
 .service .btn {
@@ -40,14 +40,14 @@
     margin: 0 auto
 }
 
-/* Animacija za h2 kada korisnik pređe mišem preko .service */
+
 .service:hover h2 {
-    transform: translateY(-10px); /* Pomjeramo h2 za 10px gore */
+    transform: translateY(-10px);
 }
 
-/* Animacija za dugme kada korisnik pređe mišem preko .service */
+
 .service:hover .btn {
-    opacity: 0.7; /* Smanjujemo providnost dugmeta */
-    transform: scale(1.1); /* Uvećavamo dugme za 10% */
+    opacity: 0.7; 
+    transform: scale(1.1); 
 }
 

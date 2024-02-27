@@ -23,6 +23,17 @@ $(document).ready(function(){
         animation();
     });
     animation();
+    
+    
+    //team-slider
+    if($('.team-members-slider').length > 0){
+        $(".team-members-slider").owlCarousel({
+            
+            
+            
+            
+        });
+    }
 
     
     

@@ -9148,9 +9148,8 @@ header .navbar-nav .nav-item:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%; /* Da bi div popunio visinu roditeljskog elementa */
-  text-align: center; /* Centriranje teksta */
-  margin-bottom: 111px;
+  height: 100%;
+  text-align: center;
 }
 
 .services-h {
@@ -9162,8 +9161,8 @@ header .navbar-nav .nav-item:hover {
 }
 
 .service h2, .service .btn {
-  width: 80%; /* Širina teksta i dugmeta */
-  margin: 0 auto; /* Centriranje teksta i dugmeta */
+  width: 80%;
+  margin: 0 auto;
 }
 
 .service h2 {
@@ -9173,7 +9172,7 @@ header .navbar-nav .nav-item:hover {
   line-height: 44px;
   color: #1E1E1E;
   font-family: "Lato", sans-serif;
-  transition: transform 0.5s ease; /* Dodajemo animaciju za pomjeranje */
+  transition: transform 0.5s ease;
 }
 
 .service .btn {
@@ -9187,15 +9186,50 @@ header .navbar-nav .nav-item:hover {
   margin: 0 auto;
 }
 
-/* Animacija za h2 kada korisnik pređe mišem preko .service */
 .service:hover h2 {
-  transform: translateY(-10px); /* Pomjeramo h2 za 10px gore */
+  transform: translateY(-10px);
 }
 
-/* Animacija za dugme kada korisnik pređe mišem preko .service */
 .service:hover .btn {
-  opacity: 0.7; /* Smanjujemo providnost dugmeta */
-  transform: scale(1.1); /* Uvećavamo dugme za 10% */
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.team-h {
+  font-family: "Bodoni-72-Book";
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 5px;
+  padding-bottom: 54px;
+  margin-top: 111px;
+  margin-top: 85px;
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #ECD9D9;
+  margin: 0 33px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
+
+.copyright {
+  color: #1E1E1E;
+  margin-top: 10px;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=theme.css.map */
