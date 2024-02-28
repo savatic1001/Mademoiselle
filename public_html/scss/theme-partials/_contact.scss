@@ -1,0 +1,98 @@
+
+.contact-section {
+    position: relative;
+}
+
+.contact-iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%; /* Ovo će biti primenjeno samo za ekrane šire od 992 piksela */
+    height: 100%;
+}
+
+.contact-section {
+    margin-top: 204px;
+}
+
+@media (max-width: 992px) {
+    .contact-iframe {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .contact-section {
+        margin-bottom: 20px;
+    }
+}
+
+
+.contact-form {
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.23px;
+    text-align: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.23px;
+    text-align: left;
+}
+
+.contact-form button[type="submit"] {
+    background-color: transparent;
+    border: 1px solid #253D61;
+    border-radius: 0;
+    color: #1e1e1e;
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.23px;
+    text-align: left;
+    border-radius: 0;
+  
+}
+.section-content {
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+            background-color: #ECD9D9;
+            padding: 65px 0;
+            text-align: center;
+            margin-top: 110px; 
+        }
+        .section-content p {
+            font-size: 24px;
+            line-height: 25px;
+            letter-spacing: normal;
+            margin: 15px 0;
+            text-align: center; 
+        }
+        
+        
+        .contact-h{
+            font-size: 30px;
+            line-height: 45px;
+            letter-spacing: 5px;
+            line-height: 45px;
+            font-family: 'Bodoni-72-Book-Italic';
+            text-transform: uppercase;
+            text-align: left;
+        }
+        
+        
+   
+
+

@@ -9,12 +9,13 @@
 @import "theme-partials/_base.scss";
 @import "theme-partials/_header.scss";
 @import "theme-partials/_lead-page-section.scss";
-@import "theme-partials/latest.scss";
-@import "theme-partials/services.scss";
-@import "theme-partials/team.scss";
-@import "theme-partials/footer.scss";
+@import "theme-partials/_latest.scss";
+@import "theme-partials/_services.scss";
+@import "theme-partials/_team.scss";
+@import "theme-partials/_footer.scss";
 @import "theme-partials/_service.scss";
 @import "theme-partials/_service-single.scss";
 
-@import "theme-partials/blog.scss";
+@import "theme-partials/_blog.scss";
+@import "theme-partials/_contact.scss";
 
