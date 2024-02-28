@@ -9051,6 +9051,10 @@ header .navbar-nav a {
 header .navbar-nav .nav-item {
   position: relative;
 }
+header .navbar-nav .nav-item.active .nav-link,
+header .navbar-nav .nav-item:hover .nav-link {
+  border-bottom: 1px solid #ECD9D9;
+}
 @media (min-width: 768px) {
   header .navbar-nav li {
     margin-left: 30px;
@@ -9065,11 +9069,6 @@ header .navbar-nav .nav-item {
 .navbar-brand img {
   height: 25px;
   width: 196px;
-}
-
-.nav-item.active .nav-link,
-.nav-item:hover .nav-link {
-  border-bottom: 1px solid #ECD9D9;
 }
 
 .lead-page-section {
@@ -9213,16 +9212,6 @@ header .navbar-nav .nav-item {
 .service:hover .btn {
   opacity: 0.7;
   transform: scale(1.1);
-}
-
-.team-h {
-  font-family: "Bodoni-72-Book";
-  font-size: 30px;
-  line-height: 45px;
-  letter-spacing: 5px;
-  padding-bottom: 54px;
-  margin-top: 111px;
-  margin-top: 85px;
 }
 
 .footer {
@@ -9398,6 +9387,92 @@ p {
   font-family: "Bodoni-72-Book-Italic";
   text-transform: uppercase;
   text-align: left;
+}
+
+.blog-page-section {
+  margin-top: 165px;
+}
+
+.blog-section-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.blog-section-description {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.blog-page-section .category {
+  font-weight: bold;
+}
+
+.blog-page-section .date-published {
+  font-family: "Bodoni 72", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.blog-single-content {
+  margin-bottom: 273px;
+}
+
+.about-blog {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.article-content {
+  position: absolute;
+  bottom: 0;
+}
+
+.contact-form button[type=submit] {
+  background-color: transparent;
+  border: 1px solid #1e1e1e;
+  border-radius: 0;
+  color: #1e1e1e;
+  padding: 10px 20px;
+  font-family: "Bodoni-72-Book-Italic";
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.23px;
+  text-align: left;
+  border-radius: 0;
+}
+
+.lead-section-title {
+  font-family: "Bodoni 72 Book", serif;
+  font-size: 60px;
+  line-height: 84px;
+  letter-spacing: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.btn {
+  font-family: "Lato Regular", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  padding: 10px 20px;
+  margin-top: 32px;
 }
 
 /*# sourceMappingURL=theme.css.map */

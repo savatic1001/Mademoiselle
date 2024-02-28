@@ -27,8 +27,11 @@ header {
         .nav-item {
             position: relative; 
         }
-
         
+        .nav-item.active .nav-link,
+        .nav-item:hover .nav-link {
+            border-bottom: 1px solid #ECD9D9; 
+        }
     }
 
     @media (min-width: 768px) {
@@ -52,7 +55,3 @@ header {
     height: 25px; 
     width: 196px;
 }
-.nav-item.active .nav-link,
-         .nav-item:hover .nav-link {
-            border-bottom: 1px solid #ECD9D9; 
-        }

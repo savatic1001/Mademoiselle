@@ -1,0 +1,29 @@
+
+
+
+
+
+.about-blog {
+ 
+   position: relative;
+   margin-bottom: 100px;
+ 
+}
+.article-content{
+     position: absolute;
+  bottom: 0;
+  
+}
+.contact-form button[type="submit"] {
+    background-color: transparent;
+    border: 1px solid #1e1e1e;
+    border-radius: 0;
+    color: #1e1e1e;
+    padding: 10px 20px;
+     font-family: 'Bodoni-72-Book-Italic';
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.23px;
+    text-align: left;
+    border-radius: 0;
+}
