@@ -1,63 +1,58 @@
 
 $navbar-toggler-bg: $primary;
 
-header{
-    
-    .navbar-toggler{
-        span{
+header {
+    .navbar-toggler {
+        span {
             display: block;
             width: 30px;
             height: 3px;
             margin-bottom: 5px;
             background-color: #ECD9D9;
 
-            &:last-of-type{
+            &:last-of-type {
                 margin-bottom: 0;
             }
         }
-    }// navbar-toggler-end
-    
-    .navbar-nav{
-        a{
+    }
+
+    .navbar-nav {
+        a {
             font-size: 1.4rem;
             line-height: 1.7rem;
-          padding: 10px;
+            padding: 10px;
             text-align: center;
         }
+
+        .nav-item {
+            position: relative; 
+        }
+
         
     }
-    .navbar-nav .nav-item {
-    position: relative; /* Omogućava pozicioniranje pseudoelementa relativno u odnosu na ovaj element */
-}
 
-.navbar-nav .nav-item:hover {
-    border-bottom: 1px solid #ECD9D9; /* Dodajemo donju ivicu koja će biti vidljiva samo kada je stavka hoverovana */
-}
-
-   
-}// header end
-
-
-@media(min-width:768px){
-    header{
-        .navbar-nav{
-            li{
+    @media (min-width: 768px) {
+        .navbar-nav {
+            li {
                 margin-left: 30px;
             }
         }
     }
-    
-}
 
-@media(min-width:1200px){
-    header{
-        .navbar-nav{
-            li{
+    @media (min-width: 1200px) {
+        .navbar-nav {
+            li {
                 margin-left: 51px;
             }
         }
     }
-
 }
 
-
+.navbar-brand img {
+    height: 25px; 
+    width: 196px;
+}
+.nav-item.active .nav-link,
+         .nav-item:hover .nav-link {
+            border-bottom: 1px solid #ECD9D9; 
+        }
